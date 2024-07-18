@@ -13,5 +13,8 @@
     "express": "^4.19.2",
     "googleapis": "^140.0.1",
     "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.7.0"
   }
 }
