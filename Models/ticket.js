@@ -1,4 +1,6 @@
 // JavaScript source code
+const mongoose = require('mongoose');
+
 const ticketSchema = new mongoose.Schema({
     title: String,
     description: String,
@@ -8,3 +10,5 @@ const ticketSchema = new mongoose.Schema({
 });
 
 const Ticket = mongoose.model('Ticket', ticketSchema);
+
+module.exports = Ticket;
